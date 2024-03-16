@@ -14,7 +14,7 @@
 }
 
 .aboutjapan {
-    background-color: aqua;
+    background-color: rgb(95, 146, 112);
 }
 
 #contact {
@@ -27,44 +27,18 @@
 
 /* social media icons styling */
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-
-.wrapper .button{
-  justify-content: center;
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  float: left;
-  margin: 0 5px;
-  overflow: hidden;
-  background: #fff;
-  border-radius: 50px;
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  transition: all 0.3s ease-out;
 }
-.wrapper .button:hover{
-  width: 200px;
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+  color: #ac9a61;
 }
-.wrapper .button .icon{
-  display: inline-block;
-  height: 60px;
-  width: 60px;
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
   text-align: center;
-  border-radius: 50px;
-  box-sizing: border-box;
-  line-height: 60px;
-  transition: all 0.3s ease-out;
-}
-.wrapper .button:nth-child(1):hover .icon{
-  background: #1DA1F2;
-}
-.wrapper .button:nth-child(2):hover .icon{
-  background: #E1306C;
-}
-.wrapper .button:nth-child(3):hover .icon{
-  background: #1f4596;
-}
-.wrapper .button:nth-child(4):hover .icon{
-  background: #525050;
 }
